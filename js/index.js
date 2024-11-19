@@ -52,5 +52,18 @@ function addProdect(){
     prodectList.push(prodect);
     localStorage.setItem("dataList", JSON.stringify(prodectList))
     console.log(prodectList);
+    clearForm()
     
 }
+
+
+// clear form 
+function clearForm (){
+    title.value = "";
+    price.value= "";
+    taxes.value = "";
+    ads.value = "";
+    total.innerHTML = "";
+    discound.value = "";
+    category.value = "";
+};
