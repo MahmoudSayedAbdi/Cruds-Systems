@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruds</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    
+    <div class="curds">
+        <div class="container">
+
+            <div class="head text-center mt-4 text-uppercase">
+                <h2>Cruds Systems</h2>
+                <p>Create - read - updute - delete</p>
+            </div>
+
+            <div class="inputs">
+                <input type="text" name="title" id="title" placeholder="title">
+                <div class="price">
+                    <input type="number" name="price" id="price" placeholder="price">
+                    <input type="number" name="taxes" id="taxes" placeholder="taxes">
+                    <input type="number" name="ads" id="ads" placeholder="ads">
+                    <input type="number" name="discound" id="discound" placeholder="discound">
+                    <small id="total"></small>
+                </div>
+                <input type="number" name="count" id="count" placeholder="count">
+                <input type="text" name="category" id="category" placeholder="category">
+                <button class="" id="create">create</button>                
+            </div>
+
+            <div class="outputs">
+                <div class="searchBlocks">
+                    <input type="text" name="search" id="search" placeholder="search by ">
+                    <div class="btnSearch d-flex justify-content-around ">
+                        <button class="w-25 p-2" id="searchTitle">search by title</button>
+                        <button class="w-25 " id="searchCategory">search by category</button>
+                    </div>
+
+                </div>
+
+                <div class="display" >
+                    <table class="w-100" >
+                        <thead>
+                            <tr class="">
+                                <th>id</th>
+                                <th>title</th>
+                                <th>price</th>
+                                <th>taxes</th>
+                                <th>ads</th>
+                                <th>discound</th>
+                                <th>total</th>
+                                <th>count</th>
+                                <th>category</th>
+                                <th>update</th>
+                                <th>delete</th>
+                            </tr>
+                        </thead>
+                        <tbody >
+                            <tr>
+                                <td>1</td>
+                                <td>samsung</td>
+                                <td>200</td>
+                                <td>20</td>
+                                <td>10</td>
+                                <td>20%</td>
+                                <td>250</td>
+                                <td>30</td>
+                                <td>phone</td>
+                                <th><button>update</button></th>
+                                <th><button>delete</button></th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>samsung</td>
+                                <td>200</td>
+                                <td>20</td>
+                                <td>10</td>
+                                <td>20%</td>
+                                <td>250</td>
+                                <td>30</td>
+                                <td>phone</td>
+                                <th><button>update</button></th>
+                                <th><button>delete</button></th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>samsung</td>
+                                <td>200</td>
+                                <td>20</td>
+                                <td>10</td>
+                                <td>20%</td>
+                                <td>250</td>
+                                <td>30</td>
+                                <td>phone</td>
+                                <th><button>update</button></th>
+                                <th><button>delete</button></th>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- JS link -->
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

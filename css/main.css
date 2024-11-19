@@ -1,0 +1,47 @@
+
+body {
+    background-color: rgba(23, 22, 22, 0.963);
+    color: white;
+}
+/* input */
+input , button{
+    width: 100%;
+    background-color: black;
+    outline: none;
+    border: none;
+    margin: 5px 0;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+}
+input:focus {
+    transform: scale(1.05);
+    background-color: rgb(12, 11, 11);
+}
+
+.price input {
+    width: 20%;
+}
+.price small {
+    background-color: #a10b42;
+    padding: 5px;
+    border-radius: 4px;
+    width: 20%;
+} 
+.price small::before {
+    content: "total : ";
+}
+button {
+    border-radius: 20px;
+    background-color: rgb(26, 5, 54);
+}
+button:hover {
+    background-color: rgb(53, 18, 98);
+    letter-spacing: 1.1px;
+}
+
+/* output */
+.outputs table button:hover {
+    background-color: rgb(53, 18, 98);
+    letter-spacing: 0;
+}
