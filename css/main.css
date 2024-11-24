@@ -31,6 +31,12 @@ input:focus {
 .price small::before {
     content: "total : ";
 }
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 button {
     border-radius: 20px;
     background-color: rgb(26, 5, 54);
